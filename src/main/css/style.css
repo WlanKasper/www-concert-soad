@@ -1,0 +1,140 @@
+@import '../../common/css/reset.css';
+@import '../../common/css/style-modal.css';
+
+body {
+    margin: 0 180px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+    background-color: var(--black);
+}
+
+header {
+    width: 100%;
+    height: 80px;
+
+    margin-bottom: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 100px;
+}
+
+#heading {
+    width: 100%;
+
+    margin-bottom: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+    gap: 200px;
+}
+
+.heading-info {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.heading-text {
+    width: 500px;
+}
+
+.concerts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.title-concerts {
+    justify-self: center;
+    align-items: center;
+}
+
+.block-concert {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.wrapper-concert-info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.wrapper-concert-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+    gap: 100px;
+}
+
+.concert-img>img {
+    width: 2000px;
+}
+
+.concert-info {
+    width: 70%;
+}
+
+.wrapper-button {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+
+    gap: 25px;
+}
+
+button {
+    width: 180px;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+    background-color: var(--white);
+    border: 2px solid var(--red);
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: var(--black);
+}
+
+button:hover>h4 {
+    color: var(--white);
+}
+
+footer {
+    height: 200px;
+}

@@ -1,0 +1,94 @@
+.modal-form-prenotation {
+    position: fixed;
+    top: 20%;
+
+    padding: 20px 10px;
+    border-radius: 4px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 50px;
+
+    background-color: var(--gray);
+}
+
+.modal-form-prenotation > form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.modal-heading {
+    width: 500px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+input {
+    width: 400px;
+    height: 50px;
+
+    border: 0;
+    border-radius: 4px;
+    padding: 20px 6px;
+
+    background-color: var(--white);
+}
+
+input:not([type="checkbox"]):focus {
+    outline: none !important;
+    border-color:  var(--red);;
+    box-shadow: 0 0 10px  var(--red);
+}
+
+.wrapper-checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 25px;
+}
+
+input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+
+    accent-color: var(--red) !important;
+}
+
+button[type="submit"] {
+    width: 400px;
+    margin-top: 25px;
+
+    background-color: var(--black);
+}
+
+button[type="submit"] > h4 {
+    color: var(--white);
+}
+
+button[type="submit"]:hover {
+    background-color: var(--white);
+}
+
+button[type="submit"]:hover > h4 {
+    color: var(--black);
+}
+
+.modal-close {
+    width: 30px;
+    height: 30px;
+
+    cursor: pointer;
+}
+
+.wrapper-ticket {
+    height: 200px;
+}
